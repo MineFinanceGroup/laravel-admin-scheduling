@@ -1,13 +1,3 @@
-# MineFinanceGroup compatibility fork
-
-The `laravel-13-php-85` branch preserves the existing admin scheduling extension on PHP 8.5 / Laravel 13.
-
-- Removes invalid final-private modifiers that emit PHP warnings when the cron parser loads.
-- Initializes the language dictionary as an array and resolves parser exceptions to the built-in Exception class.
-- Adds isolated cron parser regression tests; no scheduled tasks are executed.
-
-The original project history, license and embedded CronSchedule license notice are retained below.
-
 Scheduling task manager for laravel-admin
 ============================
 
